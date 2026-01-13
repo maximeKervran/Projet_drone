@@ -89,11 +89,20 @@ int main(int argc, char **argv) {
   }
 
   // Initialize variables
+
+  wb_robot_step(timestep);
+
   actual_state_t actual_state = {0};
   desired_state_t desired_state = {0};
-  double past_x_global = 0;
-  double past_y_global = 0;
+
+  const double *gps_values = wb_gps_get_values(gps);
+  
+  printf("Position initiale detectee - X: %f, Y: %f\n", gps_values[0], gps_values[1]);
+
+  double past_x_global = gps_values[0];
+  double past_y_global = gps_values[1];
   double past_time = wb_robot_get_time();
+  //test
 
   // Initialize PID gains.
   gains_pid_t gains_pid;
@@ -179,10 +188,10 @@ int main(int argc, char **argv) {
           yaw_desired = -1.0;
           break;
         case 'W':
-          height_diff_desired = 0.1;
+          height_diff_desired = 0.5;
           break;
         case 'S':
-          height_diff_desired = -0.1;
+          height_diff_desired = -0.5;
           break;
       }
       key = wb_keyboard_get_key();

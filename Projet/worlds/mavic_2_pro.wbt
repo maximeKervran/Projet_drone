@@ -142,5 +142,37 @@ Forest {
   minRadius 3
 }
 Crazyflie {
+  name "Drone1"
+  translation 0 0 1
 }
+
+Crazyflie {
+  name "Drone2"
+  translation 2 0 1
+}
+
+Crazyflie {
+  name "Drone3"
+  translation -2 0 1
+}
+
+Crazyflie {
+  name "Drone4"
+  translation -4 0 1
+}
+
+Crazyflie {
+  name "Drone5"
+  translation 4 0 1
+}
+
+Crazyflie {
+  name "Drone6"
+  translation -8 0 1
+}
+
+
+
+
+
 
