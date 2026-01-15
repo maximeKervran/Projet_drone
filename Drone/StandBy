@@ -1,0 +1,760 @@
+Crazyflie {
+  name "Drone2"
+  translation 2 0 1
+}
+
+Crazyflie {
+  name "Drone3"
+  translation -2 0 1
+}
+
+Crazyflie {
+  name "Drone4"
+  translation -4 0 1
+}
+
+Crazyflie {
+  name "Drone5"
+  translation 4 0 1
+}
+
+Crazyflie {
+  name "Drone6"
+  translation -8 0 1
+}
+
+
+DEF TRASH_1 Solid {
+  translation 45.19 50.12 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_1"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_2 Solid {
+  translation -17.91 35.57 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_2"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_3 Solid {
+  translation -191.53 -195.46 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_3"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_4 Solid {
+  translation -15.75 -136.16 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_4"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_5 Solid {
+  translation -177.62 -196.79 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_5"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_6 Solid {
+  translation -1.30 -104.53 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_6"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_7 Solid {
+  translation -163.85 -117.34 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_7"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_8 Solid {
+  translation -7.04 10.63 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_8"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_9 Solid {
+  translation -162.63 -59.85 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_9"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_10 Solid {
+  translation 130.40 -57.38 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_10"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_11 Solid {
+  translation -112.80 82.73 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_11"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_12 Solid {
+  translation 180.38 26.15 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_12"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_13 Solid {
+  translation 92.92 -98.49 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_13"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_14 Solid {
+  translation -59.48 -2.75 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_14"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_15 Solid {
+  translation 73.55 -172.76 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_15"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_16 Solid {
+  translation -50.65 148.37 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_16"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_17 Solid {
+  translation 116.94 155.38 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_17"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_18 Solid {
+  translation -176.09 44.15 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_18"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_19 Solid {
+  translation -20.15 -32.66 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_19"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_20 Solid {
+  translation -196.17 120.81 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_20"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_21 Solid {
+  translation -94.89 -177.41 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_21"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_22 Solid {
+  translation -8.38 -87.25 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_22"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_23 Solid {
+  translation 80.12 -175.96 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_23"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_24 Solid {
+  translation 112.81 49.60 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_24"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_25 Solid {
+  translation 184.33 86.88 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_25"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_26 Solid {
+  translation 93.96 -33.26 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_26"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_27 Solid {
+  translation 141.81 -148.54 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_27"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_28 Solid {
+  translation 15.56 -19.68 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_28"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_29 Solid {
+  translation 100.85 -196.58 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_29"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_30 Solid {
+  translation 2.99 -147.82 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_30"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_31 Solid {
+  translation -146.55 -7.24 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_31"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_32 Solid {
+  translation 15.26 65.93 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_32"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_33 Solid {
+  translation -198.77 28.61 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_33"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_34 Solid {
+  translation -192.57 22.71 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_34"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_35 Solid {
+  translation 55.20 -84.25 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_35"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_36 Solid {
+  translation -183.81 -60.15 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_36"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_37 Solid {
+  translation 124.99 56.00 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_37"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_38 Solid {
+  translation 154.57 -164.05 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_38"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_39 Solid {
+  translation 196.15 106.79 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_39"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_40 Solid {
+  translation -132.88 88.08 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_40"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_41 Solid {
+  translation 30.65 -35.24 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_41"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_42 Solid {
+  translation 176.13 -150.18 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_42"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_43 Solid {
+  translation -100.61 181.94 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_43"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_44 Solid {
+  translation -129.85 95.43 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_44"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_45 Solid {
+  translation 82.24 174.28 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_45"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_46 Solid {
+  translation -158.97 -83.73 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_46"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_47 Solid {
+  translation 108.82 66.46 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_47"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_48 Solid {
+  translation 165.87 -38.37 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_48"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
+
+DEF TRASH_49 Solid {
+  translation 177.24 122.98 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.41 0.18 0.61
+        roughness 1
+      }
+      geometry Box { size 0.3 0.3 0.3 }
+    }
+  ]
+  name "trash_49"
+  boundingObject Box { size 0.3 0.3 0.3 }
+}
